@@ -1,0 +1,80 @@
+.search__list {
+  display: flex;
+  height: 4rem;
+  border-bottom: 1px solid rgba(201, 201, 204, 0.48);
+  margin-bottom: 3rem;
+}
+.search__list div {
+  padding: 0 25px;
+  color: #388ae5;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  align-items: center;
+}
+.search__list div:hover {
+  border-bottom: 4px solid #388ae5;
+}
+.search__content_main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.search__placeholder {
+  position: relative;
+  top: 3px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.icon {
+  border-radius: 50%;
+  border: 1px solid grey;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search__none {
+  font-weight: 700;
+  font-size: 20px;
+  color: #388ae5;
+}
+.search__flex_content {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+.icon:hover {
+  background-color: rgba(201, 201, 204, 0.48);
+  border: 1px solid black;
+}
+.search__title {
+  flex: 1;
+  padding-left: 20px;
+  font-weight: 600;
+  color: #388ae5;
+  font-size: 20px;
+}
+.search__input {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.search__container_input {
+  width: 90%;
+  margin: auto;
+}
+.search__container_input .MuiFormControl-root {
+  width: 100% !important;
+}
+.search__container {
+  background-color: #f8f9f8;
+  height: calc(100vh - 5rem);
+}
+.search__flex_content:hover {
+  border: 1px solid rgba(201, 201, 204, 0.48);
+  border-radius: 30px;
+}

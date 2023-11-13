@@ -1,0 +1,24 @@
+.homepage__container {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.homepage__editor_wrapper {
+  flex: 0.7;
+  height: calc(100vh - 5rem);
+  display: flex;
+  justify-content: center;
+  background: #f8f9f8;
+  align-items: center;
+}
+
+.homepage__editor_flex {
+  width: 95%;
+  background: #fff;
+  border-radius: 8px;
+  height: 95%;
+  overflow: auto;
+}
+.searchpage__wrapper {
+  flex: 0.3;
+}

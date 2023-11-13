@@ -1,0 +1,44 @@
+.nav__icons_wrapper {
+  display: flex;
+  gap: 10px;
+  flex-grow: 0.1;
+}
+.nav__main h3 {
+  flex-grow: 1;
+  cursor: pointer;
+}
+.nav__main h3:hover {
+  color: #388ae5;
+}
+.nav__icons_wrapper div:nth-child(2) {
+  background-color: #388ae5;
+}
+.nav__icons_wrapper div:nth-child(2):hover {
+  background-color: #fff;
+}
+.nav__icons_wrapper div:nth-child(1):hover {
+  background-color: #388ae5;
+}
+.nav__icons_wrapper div {
+  border-radius: 30px;
+  border: 1px solid rgba(201, 201, 204, 0.48);
+  height: 3rem;
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+.nav__icons_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav__main {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: auto;
+  border-bottom: 3px solid rgba(201, 201, 204, 0.48);
+  align-items: center;
+  height: 5rem;
+}
